@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T12:35:22.594Z" agent="5.0 (Macintosh)" version="20.2.0" etag="Pger558m1aBf-qTAHRwZ" type="github"><diagram id="jCoL7ZVmwW8w7qaCQZwJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-08T12:53:19.236Z" agent="5.0 (Macintosh)" etag="0-iRvA_R12q55Y8SGCwY" version="20.2.0" type="github">
+  <diagram id="jCoL7ZVmwW8w7qaCQZwJ" name="Page-1">
+    <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-14" value="&lt;div&gt;API KEY&lt;/div&gt;&lt;div&gt;LAT/LONG or ADdRESS (by address)&lt;br&gt;&lt;/div&gt;&lt;div&gt;CITY (by city)&lt;br&gt;&lt;/div&gt;&lt;div&gt;COUNTRY (by country)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-6" value="&lt;div&gt;&lt;b&gt;Data : &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;User (admin)&lt;/div&gt;&lt;div&gt;Horaires&lt;/div&gt;&lt;div&gt;Actualités&lt;/div&gt;&lt;div&gt;Infos pratiques (?)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="550" y="350" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="570" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-1" value="PrayOnTime architecture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="10" width="620" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-3" value="&lt;div&gt;BackEnd&lt;/div&gt;&lt;div&gt;(angular || React ) &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5ftmGO7wiDCaycZ3G9j-4" target="F5ftmGO7wiDCaycZ3G9j-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-4" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-5" value="&lt;div&gt;public API&lt;/div&gt;&lt;div&gt;(prayer times)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F5ftmGO7wiDCaycZ3G9j-3" target="F5ftmGO7wiDCaycZ3G9j-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="F5ftmGO7wiDCaycZ3G9j-3" target="F5ftmGO7wiDCaycZ3G9j-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-13" value="&lt;div&gt;Horaires (granularité J/S/M)&lt;/div&gt;&lt;div&gt;Infos pratiques (localisation, horaires ouvertures fermeture)&lt;/div&gt;&lt;div&gt;Actualités (?)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="220" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F5ftmGO7wiDCaycZ3G9j-2" value="&lt;div&gt;FrontEnd&lt;/div&gt;&lt;div&gt;(angular || React ) &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
